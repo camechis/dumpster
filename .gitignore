@@ -2,6 +2,10 @@
 
 .*
 
+*.ipr
+*.iml
+*.iws
+
 # Package Files #
 *.jar
 *.war
