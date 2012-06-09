@@ -4,6 +4,12 @@
 ~*
 *~
 
+# Eclipse
+.wtpmodules
+.classpath
+.project
+.settings/
+
 *.ipr
 *.iml
 *.iws
