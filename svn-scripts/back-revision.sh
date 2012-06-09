@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Voltando da revisão atual (150) para a antiga (140)
+# Rollback (undo) changes from revision $1 to previous revision $2.
 
 svn update
-svn merge -r 150:140 .
-svn commit -m "Rolled back to r140"
+svn merge -r $1:$2 .
+svn commit -m "Rolled back to "$2
