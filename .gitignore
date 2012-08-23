@@ -3,12 +3,15 @@
 .*
 ~*
 *~
+*.bak
+
 
 # Eclipse
 .wtpmodules
 .classpath
 .project
 .settings/
+target/
 
 *.ipr
 *.iml
